@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.cdnfonts.com/css/alright-sans-2');
+
+* {
+  font-family: 'Alright Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#mainDivImg {
+  background-image: url(../src/assets/images/mainImg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#rightMain::-webkit-scrollbar {
+  display: none;
+}
+
+#rightMainDiv:hover {
+  background-color: black;
+}
+
+#oppenheimer {
+  background-image: url(../../../react/universalCinema/src/assets/images/oppenheimerImg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* #mainBody2Topright {
+  background-image: url(../../universalCinema/src/assets/images/fallGuyTrailer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+#ted {
+  background-image: url(../../universalCinema/src/assets/images/fallGuyTrailer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#voice {
+  background-image: url(../../universalCinema/src/assets/images/voice.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
